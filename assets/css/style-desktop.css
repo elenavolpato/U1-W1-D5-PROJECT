@@ -113,7 +113,7 @@ footer a {
   padding-block: 8em;
 }
 .main-content {
-  margin: auto;
+  display: inline-block;
   text-align: left;
   width: 45%;
   margin-left: 2rem;
@@ -158,6 +158,7 @@ footer a {
   vertical-align: top;
   box-sizing: border-box;
   height: 500px;
+  border-radius: 4px;
 }
 
 .bottom-item p {
