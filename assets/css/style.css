@@ -13,6 +13,7 @@ h6 {
   font-optical-sizing: auto;
   font-weight: 700;
   color: #25a2c3;
+  /* line-height: 1.5; */
 }
 
 p {
@@ -20,18 +21,30 @@ p {
   font-family: "Open Sans", sans-serif;
   font-size: 1.2rem;
   line-height: 1.65;
+  color: #3a3a3a;
 }
 header {
-  width: 100%;
-  margin: 0 auto;
   background-color: black;
-  text-align: center;
+
   padding-block: 2.5rem;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+h2 {
+  font-size: 2.25rem;
+  margin-bottom: 2rem;
+}
+h3 {
+  font-size: 1.5rem;
 }
 
 header img {
   max-width: 180px;
 }
+
 button {
   background-color: #f04c2f;
   font-family: "Montserrat", sans-serif;
@@ -42,6 +55,17 @@ button {
   border-radius: 4px;
   font-size: inherit;
 }
+
+.italic {
+  font-style: italic;
+}
+.bold {
+  font-weight: 600;
+}
+.small {
+  font-size: 1rem;
+}
+
 .top-title {
   background-color: lightgray;
   background-image: url("/assets/img/banner.jpg");
@@ -53,11 +77,44 @@ button {
   padding-block: 5rem 2rem;
   padding-inline: 2rem;
 }
+
 .top-title p {
   margin-bottom: 2rem;
 }
 
-h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
+.center {
+  width: 100%;
+  text-align: center;
+}
+.main-content {
+  padding-block: 4rem;
+}
+.main-content img {
+  border-radius: 50%;
+  padding-block: 2rem;
+  max-width: 400px;
+}
+
+.content-item {
+  padding-inline: 2rem;
+  padding-bottom: 2rem;
+}
+.content-item h3 {
+  padding-bottom: 2rem;
+}
+
+.orange-bg {
+  background-color: #f04c2f;
+  padding-block: 5rem 3rem;
+}
+.orange-bg p,
+.orange-bg h2 {
+  color: white;
+}
+.orange-bg p.italic {
+  padding-bottom: 2rem;
+}
+
+.orange-bg p.bold {
+  font-size: 1.4rem;
 }
