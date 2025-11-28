@@ -12,17 +12,52 @@ h6 {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
+  color: #25a2c3;
 }
 
 p {
   margin-top: 0;
   font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
+  font-size: 1.2rem;
+  line-height: 1.65;
+}
+header {
+  width: 100%;
+  margin: 0 auto;
+  background-color: black;
+  text-align: center;
+  padding-block: 2.5rem;
 }
 
+header img {
+  max-width: 180px;
+}
+button {
+  background-color: #f04c2f;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  border: none;
+  padding: 1rem 2rem;
+  color: white;
+  border-radius: 4px;
+  font-size: inherit;
+}
 .top-title {
   background-color: lightgray;
-  background-image: url("./assets/img/banner.jpg");
+  background-image: url("/assets/img/banner.jpg");
   background-repeat: no-repeat;
-  background-position: cover;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  text-align: center;
+  padding-block: 5rem 2rem;
+  padding-inline: 2rem;
+}
+.top-title p {
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
 }
