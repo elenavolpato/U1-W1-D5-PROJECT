@@ -13,25 +13,30 @@ h6 {
   font-optical-sizing: auto;
   font-weight: 700;
   color: #25a2c3;
-  /* line-height: 1.5; */
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.5;
 }
 
 p {
   margin-top: 0;
   font-family: "Open Sans", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.35rem;
   line-height: 1.65;
   color: #3a3a3a;
 }
 header {
   background-color: black;
-
   padding-block: 2.5rem;
 }
 
 h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
+  font-size: 2.75rem;
+  margin-bottom: 1.5rem;
 }
 h2 {
   font-size: 2.25rem;
@@ -54,6 +59,19 @@ button {
   color: white;
   border-radius: 4px;
   font-size: inherit;
+  cursor: pointer;
+}
+
+footer {
+  padding-block: 3rem 5rem;
+  background-color: #25a2c3;
+}
+footer h2,
+footer p {
+  color: white;
+}
+footer a {
+  color: #c8e7f0;
 }
 
 .italic {
@@ -72,7 +90,6 @@ button {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 300px;
   text-align: center;
   padding-block: 5rem 2rem;
   padding-inline: 2rem;
@@ -92,7 +109,7 @@ button {
 .main-content img {
   border-radius: 50%;
   padding-block: 2rem;
-  max-width: 400px;
+  max-width: 320px;
 }
 
 .content-item {
@@ -104,7 +121,7 @@ button {
 }
 
 .orange-bg {
-  background-color: #f04c2f;
+  background-color: #e22d0e;
   padding-block: 5rem 3rem;
 }
 .orange-bg p,
@@ -117,4 +134,29 @@ button {
 
 .orange-bg p.bold {
   font-size: 1.4rem;
+}
+
+.bottom-content {
+  padding-block: 5rem 2rem;
+}
+.bottom-item {
+  margin-inline: 2rem;
+  border: 1px solid #dee1e3;
+  max-width: 380px;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+}
+
+.bottom-item img {
+  max-width: 380px;
+}
+.bottom-item h4 {
+  padding-block: 1rem;
+  font-size: 1.1rem;
+}
+
+.border-bottom {
+  border-bottom: 1px solid white;
+  margin-inline: 5rem;
+  margin-block: 3rem;
 }
