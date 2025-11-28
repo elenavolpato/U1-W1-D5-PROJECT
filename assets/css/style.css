@@ -159,4 +159,7 @@ footer a {
   border-bottom: 1px solid white;
   margin-inline: 5rem;
   margin-block: 3rem;
+  max-width: 280px;
+  display: inline-block;
+  width: 100%;
 }
